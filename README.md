@@ -20,7 +20,7 @@ We use PANDA and LIONESS:
 Run the script `src/PANDA_network.py` to compute the network and analyse their edges.
 
 <p align="center">
-  <img src="https://github.com/Aurelien-Pelissier/RA-drug-discovery/blob/main/img/LIONESS.png" width=300>
+  <img src="https://github.com/Aurelien-Pelissier/RA-drug-discovery/blob/main/img/LIONESS.png" width=500>
 </p>
 
 ## Key driver analysis
