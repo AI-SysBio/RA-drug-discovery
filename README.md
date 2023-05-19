@@ -8,7 +8,7 @@ In this repository, We compute sample-specific GRNs which enables the use of sta
 
 [1] Pelissier A*, Laragione T*, Martinez MR, & Gulko PS. Cell-type Specific Gene Networks and Drivers in Rheumatoid Arthritis (2023). Planned.
 
-[//]: <> Pelissier A*, Laragione T*, Martinez MR, & Gulko PS. BACH1 as key regulator in RA (2023). Planned.
+[//]: <> (Pelissier A*, Laragione T*, Martinez MR, & Gulko PS. BACH1 as key regulator in RA (2023). Planned.)
 
 
 ## Constructing cell-type specific gene regulatory network
