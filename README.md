@@ -10,8 +10,6 @@ In this repository, We compute sample-specific GRNs which enables the use of sta
 
 [//]: <> (Pelissier A*, Laragione T*, Martinez MR, & Gulko PS. BACH1 as key regulator in RA 2023. Planned.)
 
-[//]: <> (This may be the most platform independent comment)
-
 
 ## Constructing cell-type specific gene regulatory network
 We use PANDA and LIONESS:
@@ -22,7 +20,7 @@ Run the script PANDA_network.py to compute the network and analyse them
 ## Key driver analysis
 We use mergeomics src/KDA. You need:
 Some network for your analysis. We used the GIANT network, downloaded at https://giant-v2.princeton.edu/download/.
-- run the script kda.py
+- Run the script kda.py
 
 ## Experimental validation
 In our article we focused on Synovial fibroblast and detected FOSL1, THBS1 and CFH as potential novel key regulators.
