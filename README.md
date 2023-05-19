@@ -6,7 +6,7 @@ The increasing number of available large RNA-seq datasets, combined with genome-
 
 In this repository, We compute sample-specific GRNs which enables the use of statistical techniques to compare network properties between phenotypic groups. Then, we leverage this collection of networks to rank transcription factors (TFs) according to their contribution to the observed differential gene expression between RA and control. THis repository support our publication:
 
-[ref] Pelissier A*, Laragione T*, Martinez MR, & Gulko PS. Cell-type Specific Gene Networks and Drivers in Rheumatoid Arthritis (2023). Planned.
+[1] Pelissier A*, Laragione T*, Martinez MR, & Gulko PS. Cell-type Specific Gene Networks and Drivers in Rheumatoid Arthritis (2023). Planned.
 [//]: <> Pelissier A*, Laragione T*, Martinez MR, & Gulko PS. BACH1 as key regulator in RA (2023). Planned.
 
 
