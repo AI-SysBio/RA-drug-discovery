@@ -13,8 +13,8 @@ In this repository, We compute sample-specific GRNs which enables the use of sta
 
 ## Constructing cell-type specific gene regulatory network
 We use PANDA and LIONESS:
-- Cell-specific gene expression matrix. In this study we used bulk but you can also use single cell and average them out to make it equivalent
-- Prior knowledge about TF-TF interactions and TF binding motif
+- Cell-specific gene expression matrix. In this study we used bulk but you can also use single cell and average them out to make it equivalent, available in `Data/RA_gene_expression`
+- Prior knowledge about TF-TF interactions and TF binding motif, available in `Data/PANDA_prior_knowledge`
 Run the script PANDA_network.py to compute the network and analyse them
 
 ## Key driver analysis
