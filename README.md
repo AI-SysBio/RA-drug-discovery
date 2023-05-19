@@ -6,7 +6,8 @@ The increasing number of available large RNA-seq datasets, combined with genome-
 
 In this repository, We compute sample-specific GRNs which enables the use of statistical techniques to compare network properties between phenotypic groups. Then, we leverage this collection of networks to rank transcription factors (TFs) according to their contribution to the observed differential gene expression between RA and control. THis repository support our publication:
 
-[1] Pelissier A*, Laragione T*, Martinez MR, & Gulko PS. Cell-type Specific Gene Networks and Drivers in Rheumatoid Arthritis (2023). Planned.
+[ref] Pelissier A*, Laragione T*, Martinez MR, & Gulko PS. Cell-type Specific Gene Networks and Drivers in Rheumatoid Arthritis (2023). Planned.
+[//]: <> Pelissier A*, Laragione T*, Martinez MR, & Gulko PS. BACH1 as key regulator in RA (2023). Planned.
 
 
 ## Constructing cell-type specific gene regulatory network
@@ -25,9 +26,6 @@ In our article we focused on Synovial fibroblast and detected FOSL1, THBS1 and C
 We performed silencing experiment on RA cell line and provide the results in Data/silencing.xlsx
 
 ## Reference
-[1] Pelissier A*, Laragione T*, Martinez MR, & Gulko PS. Cell-type Specific Gene Networks and Drivers in Rheumatoid Arthritis (2023). Planned.
-[//] Pelissier A*, Laragione T*, Martinez MR, & Gulko PS. BACH1 as key regulator in RA (2023). Planned.
-
 [2] Shu, Le, et al. "Mergeomics: multidimensional data integration to identify pathogenic perturbations to biological systems." BMC genomics 17.1 (2016): 1-16.
 
 [3] Kuijjer, Marieke Lydia, et al. "Estimating sample-specific regulatory networks." Iscience 14 (2019): 226-240.
