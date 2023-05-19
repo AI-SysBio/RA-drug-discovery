@@ -15,16 +15,17 @@ In this repository, We compute sample-specific GRNs which enables the use of sta
 We use PANDA and LIONESS:
 - Cell-specific gene expression matrix. In this study we used bulk but you can also use single cell and average them out to make it equivalent, available in `Data/RA_gene_expression`
 - Prior knowledge about TF-TF interactions and TF binding motif, available in `Data/PANDA_prior_knowledge`
-Run the script PANDA_network.py to compute the network and analyse them
+Run the script `src/PANDA_network.py` to compute the network and analyse their edges.
 
 ## Key driver analysis
 We use mergeomics src/KDA. You need:
 Some network for your analysis. We used the GIANT network, downloaded at https://giant-v2.princeton.edu/download/.
-- Run the script kda.py
+- Run the script `src/KDA_analysis.py`
 
 ## Experimental validation
 In our article we focused on Synovial fibroblast and detected FOSL1, THBS1 and CFH as potential novel key regulators.
-We performed silencing experiment on RA cell line and provide the results in Data/silencing.xlsx
+We performed silencing experiment on RA cell line and provide the results in `Data/Silencing_experiments/Silencing_data.xlsx`
+- Run the script `src/Silencing_analysis.py` to run the statistical test and combine the p-values with the Brown-Fisher method.
 
 ## Reference
 [2] Shu, Le, et al. "Mergeomics: multidimensional data integration to identify pathogenic perturbations to biological systems." BMC genomics 17.1 (2016): 1-16.
