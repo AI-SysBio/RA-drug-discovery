@@ -17,6 +17,8 @@ We use PANDA and LIONESS:
 - Prior knowledge about TF-TF interactions and TF binding motif, available in `Data/PANDA_prior_knowledge`
 Run the script `src/PANDA_network.py` to compute the network and analyse their edges.
 
+<img src="https://github.com/Aurelien-Pelissier/RA-drug-discovery/blob/main/img/LIONESS.png" width=600>
+
 ## Key driver analysis
 We use mergeomics src/KDA. You need:
 Some network for your analysis. We used the GIANT network, downloaded at https://giant-v2.princeton.edu/download/.
