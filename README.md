@@ -30,8 +30,8 @@ Some network for your analysis. We used the GIANT network, downloaded at https:/
 
 ## Experimental validation
 In our article we focused on Synovial fibroblast and detected FOSL1, THBS1 and CFH as potential novel key regulators.
-We performed silencing experiment on RA cell line and provide the results in `Data/Silencing_experiments/Silencing_data.xlsx`
-- Run the script `src/Silencing_analysis.py` to run the statistical test and combine the p-values with the Brown-Fisher method.
+We performed silencing experiment on RA cell line and provide the results in `Data/silencing_experiments/silencing_data.xlsx`
+- Run the script `src/silencing_analysis.py` to run the statistical test and combine the p-values with the Brown-Fisher method.
 
 ## Reference
 [2] Shu, Le, et al. "Mergeomics: multidimensional data integration to identify pathogenic perturbations to biological systems." BMC genomics 17.1 (2016): 1-16.
