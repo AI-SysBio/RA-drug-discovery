@@ -8,32 +8,41 @@ In this repository, We compute sample-specific GRNs which enables the use of sta
 
 ### This repository support our publication:
 
-[1] Pelissier A*, Laragione T*, Martinez MR, & Gulko PS. Cell-type Specific Gene Networks and Drivers in Rheumatoid Arthritis (2023). Planned.
+[[1]](localhost) Pelissier A*, Laragione T*, Martinez MR, & Gulko PS. Cell-type Specific Gene Networks and Drivers in Rheumatoid Arthritis (2023). Planned.
 
 [//]: <> (Pelissier A*, Laragione T*, Martinez MR, & Gulko PS. BACH1 as key regulator in RA 2023. Planned.)
 
+&nbsp;
 
 ## Constructing cell-type specific gene regulatory network
-We use PANDA and LIONESS:
+We use PANDA and LIONESS [2]:
 - Cell-specific gene expression matrix. In this study we used bulk but you can also use single cell and average them out to make it equivalent, available in `Data/RA_gene_expression`
 - Prior knowledge about TF-TF interactions and TF binding motif, available in `Data/PANDA_prior_knowledge`
 Run the script `src/PANDA_network.py` to compute the network and analyse their edges.
 
 <p align="center">
-  <img src="https://github.com/Aurelien-Pelissier/RA-drug-discovery/blob/main/img/LIONESS.png" width=300>
+  <img src="https://github.com/Aurelien-Pelissier/RA-drug-discovery/blob/main/img/LIONESS.png" width=500>
 </p>
 
+&nbsp;
+
 ## Key driver analysis
-We use mergeomics src/KDA. You need:
+We use mergeomics [3]. You need:
 Some network for your analysis. We used the GIANT network, downloaded at https://giant-v2.princeton.edu/download/.
 - Run the script `src/KDA_analysis.py`
+
+&nbsp;
 
 ## Experimental validation
 In our article we focused on Synovial fibroblast and detected FOSL1, THBS1 and CFH as potential novel key regulators.
 We performed silencing experiment on RA cell line and provide the results in `Data/silencing_experiments/silencing_data.xlsx`
 - Run the script `src/silencing_analysis.py` to run the statistical test and combine the p-values with the Brown-Fisher method.
 
-## Reference
-[2] Shu, Le, et al. "Mergeomics: multidimensional data integration to identify pathogenic perturbations to biological systems." BMC genomics 17.1 (2016): 1-16.
+&nbsp;
 
-[3] Kuijjer, Marieke Lydia, et al. "Estimating sample-specific regulatory networks." Iscience 14 (2019): 226-240.
+## Reference
+[2] Kuijjer, Marieke Lydia, et al. "Estimating sample-specific regulatory networks." Iscience 14 (2019): 226-240.
+
+[3] Shu, Le, et al. "Mergeomics: multidimensional data integration to identify pathogenic perturbations to biological systems." BMC genomics 17.1 (2016): 1-16.
+
+
