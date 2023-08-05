@@ -21,15 +21,14 @@ Briefly, PANDA integrates gene expression data with prior knowledge about TF-bin
 - Prior knowledge about TF-TF interactions and TF binding motif, available in `Data/PANDA_prior_knowledge`
 Run the script `src/PANDA_network.py` to compute the network and analyse their edges.
 
-&nbsp;
 
-Applied to our data, PANDA produced fully connected and directed networks of TFs to their target genes, comprising 644 TFs and 18992 genes. Then, we used LIONESS [3] to estimate an individual gene regulatory network for each sample in the population. We can then use this collection of network to make differential analysis of their edges.
+
+Applied to our data, PANDA produced fully connected and directed networks of TFs to their target genes, comprising 644 TFs and 18992 genes. Then, we used LIONESS [3] to estimate an individual gene regulatory network for each sample in the population, which we utilized to make differential analysis of their edges and identify key TF regulators.
 
 <p align="center">
   <img src="https://github.com/Aurelien-Pelissier/RA-drug-discovery/blob/main/img/LIONESS.png" width=500>
 </p>
 
-Then, we used LIONESS [3] to estimate an individual gene regulatory network for each sample in the population.
 
 &nbsp;
 
