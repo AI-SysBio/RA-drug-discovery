@@ -16,7 +16,7 @@ In this repository, We compute sample-specific GRNs which enables the use of sta
 
 ## Constructing cell-type specific gene regulatory network
 In this work, Gene regulatory netowkrs are bipartite graphs, with edges connecting TF and their target gene (TG). Each edge has a weight representing the probability of a regulatory interaction between the connected nodes.
-Briefly, PANDA integrates gene expression data with prior knowledge about TF-binding motif and protein-protein interactions by optimizing the weights of edges in the networks with iterative steps. Applied to our data, PANDA produced directed networks of TFs to their target genes, comprising 644 TFs and \SI{18992}{} genes
+Briefly, PANDA integrates gene expression data with prior knowledge about TF-binding motif and protein-protein interactions by optimizing the weights of edges in the networks with iterative steps. Applied to our data, PANDA produced fully connected and directed networks of TFs to their target genes, comprising 644 TFs and 18992 genes.
 - Cell-specific gene expression matrix. In this study we used bulk but you can also use single cell and average them out to make it equivalent, available in `Data/RA_gene_expression`
 - Prior knowledge about TF-TF interactions and TF binding motif, available in `Data/PANDA_prior_knowledge`
 Run the script `src/PANDA_network.py` to compute the network and analyse their edges.
