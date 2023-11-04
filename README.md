@@ -15,7 +15,7 @@ In this repository, We compute sample-specific GRNs which enables the use of sta
 &nbsp;
 
 ## Constructing cell-type specific gene regulatory network
-In this work, Gene regulatory netowkrs are bipartite graphs, with edges connecting TF and their target gene (TG). Each edge has a weight representing the probability of a regulatory interaction between the connected nodes.
+In this work, Gene regulatory networks are bipartite graphs, with edges connecting TF and their target gene (TG). Each edge has a weight representing the probability of a regulatory interaction between the connected nodes.
 Briefly, PANDA integrates gene expression data with prior knowledge about TF-binding motif and protein-protein interactions by optimizing the weights of edges in the networks with iterative steps. TO summarize, PANDA's input consists of:
 - A gene expression matrix. In this study we used bulk RNA expression, available in `Data/RA_gene_expression`
 - Prior knowledge about TF-TF interactions and TF binding motif, available in `Data/PANDA_prior_knowledge`
