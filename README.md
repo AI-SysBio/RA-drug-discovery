@@ -8,7 +8,9 @@ In this repository, We compute sample-specific GRNs which enables the use of sta
 
 ### This repository support our publications:
 
-[[1]](https://www.biorxiv.org/content/10.1101/2023.12.28.573505) Pelissier A*, Laragione T*, Martinez MR, & Gulko PS. Cell-Specific Gene Networks and Drivers in Rheumatoid Arthritis Synovial Tissues (2023). bioRxiv (2023): 2023-12.
+[[1]](https://www.biorxiv.org/content/10.1101/2023.12.28.573505) Pelissier A, Laragione T, Martinez MR, & Gulko PS. Cell-Specific Gene Networks and Drivers in Rheumatoid Arthritis Synovial Tissues (2023). bioRxiv (2023): 2023-12.
+
+[[2]](https://www.biorxiv.org/content/10.1101/2023.12.28.573506) Pelissier A*, Laragione T*, Harris C, Gulko PS & , Martinez MR. Gene Network Analyses Identifies Co-regulated Transcription Factors and BACH1 as a Key Driver in Rheumatoid Arthritis Fibroblast-like Synoviocytes (2023). bioRxiv (2023): 2023-12.
 
 [//]: <> (Pelissier A*, Laragione T*, Martinez MR, & Gulko PS. BACH1 as key regulator in RA 2023. Planned.)
 
